@@ -11,3 +11,4 @@ Valhalla is an open-source routing engine for turn-by-turn navigation and multim
 - feat: use rapidjson for height serializer [#5277](https://github.com/valhalla/valhalla/pull/5277)
 - feat: use rapidjson for isochrone serializer [#5429](https://github.com/valhalla/valhalla/pull/5429)
 - feat: use rapidjson for transit_available serializer [#5430](https://github.com/valhalla/valhalla/pull/5430)
+- Add log rolling support for the file logger [#5477](https://github.com/valhalla/valhalla/pull/5477)
