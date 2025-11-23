@@ -17,6 +17,7 @@ Valhalla is an open-source routing engine for turn-by-turn navigation and multim
 - feat(ci): automate CHANGELOG.md conflict resolution via GitHub Actions [#5423](https://github.com/valhalla/valhalla/pull/5423) [In progress]
 
 ### [MariaDB](https://github.com/MariaDB/server)
+MariaDB is an open-source, high-performance relational database designed as a drop-in replacement for MySQL.
 
 - MDEV-36269: Improve error handling for source command with directories [#4455](https://github.com/MariaDB/server/pull/4455) [In progress]
 
