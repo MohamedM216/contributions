@@ -1,5 +1,11 @@
 # Contributions
 
+### [MariaDB](https://github.com/MariaDB/server)
+MariaDB is an open-source, high-performance relational database designed as a drop-in replacement for MySQL.
+
+- MDEV-36269: Improve error handling for `source` command [#4455](https://github.com/MariaDB/server/pull/4455) [In progress]
+
+
 ### [Valhalla](https://github.com/valhalla/valhalla)
 Valhalla is an open-source routing engine for turn-by-turn navigation and multimodal routing.
 
@@ -15,9 +21,3 @@ Valhalla is an open-source routing engine for turn-by-turn navigation and multim
 - feat: add attribute controller support for matrix responses [#5471](https://github.com/valhalla/valhalla/pull/5471) [In progress]
 - feat: use rapidjson for osrm_route serializer [#5462](https://github.com/valhalla/valhalla/pull/5462) [In progress]
 - feat(ci): automate CHANGELOG.md conflict resolution via GitHub Actions [#5423](https://github.com/valhalla/valhalla/pull/5423) [In progress]
-
-### [MariaDB](https://github.com/MariaDB/server)
-MariaDB is an open-source, high-performance relational database designed as a drop-in replacement for MySQL.
-
-- MDEV-36269: Improve error handling for `source` command [#4455](https://github.com/MariaDB/server/pull/4455) [In progress]
-
