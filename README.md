@@ -3,7 +3,7 @@
 ### [MariaDB](https://github.com/MariaDB/server)
 MariaDB is an open-source, high-performance relational database designed as a drop-in replacement for MySQL.
 
-- MDEV-36269: Improve error handling for `source` command [#4455](https://github.com/MariaDB/server/pull/4455) [In progress]
+- MDEV-36269: Improve error handling for `source` command [#4455](https://github.com/MariaDB/server/pull/4455)
 
 
 ### [Valhalla](https://github.com/valhalla/valhalla)
