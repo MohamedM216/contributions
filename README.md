@@ -1,10 +1,16 @@
 # Contributions
 
+### [Consul.NET](https://github.com/G-Research/consuldotnet)
+Consul.NET is a .NET client library for the Consul HTTP API 
+
+- [My PRs](https://github.com/G-Research/consuldotnet/pulls/MohamedM216)
+
 ### [MariaDB](https://github.com/MariaDB/server)
 MariaDB is an open-source, high-performance relational database designed as a drop-in replacement for MySQL.
 
 - MDEV-36269: Improve error handling for `source` command [#4455](https://github.com/MariaDB/server/pull/4455)
-- MDEV-31669: use sha2-256 as a digest instead of md5 [#4573](https://github.com/MariaDB/server/pull/4573) [In progress]
+- MDEV-31669: use XXH3 as a digest instead of md5 [#4573](https://github.com/MariaDB/server/pull/4573) [In progress]
+- MDEV-21543: Speed up VARCHAR pad space handling in multibyte collations [#4625](https://github.com/MariaDB/server/pull/4625)
 
 
 ### [Valhalla](https://github.com/valhalla/valhalla)
