@@ -9,7 +9,7 @@ Consul.NET is a .NET client library for the Consul HTTP API
 MariaDB is an open-source, high-performance relational database designed as a drop-in replacement for MySQL.
 
 - MDEV-36269: Improve error handling for `source` command [#4455](https://github.com/MariaDB/server/pull/4455)
-- MDEV-31669: use XXH3 as a digest instead of md5 [#4573](https://github.com/MariaDB/server/pull/4573) [In progress]
+- MDEV-31669: use XXH3 as a digest instead of md5 [#4573](https://github.com/MariaDB/server/pull/4573)
 - MDEV-21543: Speed up VARCHAR pad space handling in multibyte collations [#4625](https://github.com/MariaDB/server/pull/4625)
 
 
