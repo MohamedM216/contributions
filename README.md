@@ -11,6 +11,7 @@ MariaDB is an open-source, high-performance relational database designed as a dr
 - MDEV-36269: Improve error handling for `source` command [#4455](https://github.com/MariaDB/server/pull/4455)
 - MDEV-31669: use XXH3 as a digest instead of md5 [#4573](https://github.com/MariaDB/server/pull/4573)
 - MDEV-21543: Speed up VARCHAR pad space handling in multibyte collations [#4625](https://github.com/MariaDB/server/pull/4625)
+- MDEV-39520: Add MySQL 8.0 extended syntax for REGEXP_INSTR [#5035](https://github.com/MariaDB/server/pull/5035)  [In progress]
 
 
 ### [Valhalla](https://github.com/valhalla/valhalla)
