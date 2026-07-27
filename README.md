@@ -1,9 +1,18 @@
 # Contributions
+### [Pgagroal](https://github.com/pgagroal/pgagroal)
+High-performance connection pool for PostgreSQL
+
+- [#882] feat: add search bar in console [#966](https://github.com/pgagroal/pgagroal/pull/966)
+
+### [ParquetSharp](https://github.com/G-Research/ParquetSharp)
+ParquetSharp is a .NET library for reading and writing Apache Parquet files.
+
+- Fix overflow in DecimalConverter.MaxPrecision for large type lengths > 128 bytes [#652](https://github.com/G-Research/ParquetSharp/pull/652)
 
 ### [Consul.NET](https://github.com/G-Research/consuldotnet)
 Consul.NET is a .NET client library for the Consul HTTP API 
 
-- [My PRs](https://github.com/G-Research/consuldotnet/pulls/MohamedM216)
+- [My contributions: 30+ PRs](https://github.com/G-Research/consuldotnet/pulls?q=is%3Apr+author%3AMohamedM216+is%3Aclosed)
 
 ### [MariaDB](https://github.com/MariaDB/server)
 MariaDB is an open-source, high-performance relational database designed as a drop-in replacement for MySQL.
