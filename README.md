@@ -3,6 +3,8 @@
 High-performance connection pool for PostgreSQL
 
 - [#882] feat: add search bar in console [#966](https://github.com/pgagroal/pgagroal/pull/966)
+- [#881] Add option to auto-refresh console after x duration [#972](https://github.com/pgagroal/pgagroal/pull/972)
+- [#950] Make server_reset_query failure behavior tunable (discard, try, ignore) [#970](https://github.com/pgagroal/pgagroal/pull/970)
 
 ### [ParquetSharp](https://github.com/G-Research/ParquetSharp)
 ParquetSharp is a .NET library for reading and writing Apache Parquet files.
