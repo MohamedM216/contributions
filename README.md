@@ -1,4 +1,14 @@
 # Contributions
+### [MariaDB](https://github.com/MariaDB/server)
+MariaDB is an open-source, high-performance relational database designed as a drop-in replacement for MySQL.
+
+- MDEV-36269: Improve error handling for `source` command [#4455](https://github.com/MariaDB/server/pull/4455)
+- MDEV-31669: use XXH3 as a digest instead of md5 [#4573](https://github.com/MariaDB/server/pull/4573)
+- MDEV-21543: Speed up VARCHAR pad space handling in multibyte collations [#4625](https://github.com/MariaDB/server/pull/4625)
+- MDEV-39520: Add MySQL 8.0 extended syntax for REGEXP_INSTR [#5035](https://github.com/MariaDB/server/pull/5035)  [In progress]
+- MDEV-40524: Fix ST_Distance for multi-segment geometries [#5892](https://github.com/MariaDB/server/pull/5892) [in progress]
+- MDEV-17324: Add INFORMATION_SCHEMA.ARIA_TABLES_ENCRYPTION [#5923](https://github.com/MariaDB/server/pull/5923) [in progress]
+
 ### [Pgagroal](https://github.com/pgagroal/pgagroal)
 High-performance connection pool for PostgreSQL
 
@@ -8,23 +18,16 @@ High-performance connection pool for PostgreSQL
 - [#973] Fix reading split PostgreSQL message headers [#1037](https://github.com/pgagroal/pgagroal/pull/1037) [in progress]
 - [#1006] add support for wait queue [#1059](https://github.com/pgagroal/pgagroal/pull/1059) [in progress]
 
-### [ParquetSharp](https://github.com/G-Research/ParquetSharp)
-ParquetSharp is a .NET library for reading and writing Apache Parquet files.
-
-- Fix overflow in DecimalConverter.MaxPrecision for large type lengths > 128 bytes [#652](https://github.com/G-Research/ParquetSharp/pull/652)
 
 ### [Consul.NET](https://github.com/G-Research/consuldotnet)
 Consul.NET is a .NET client library for the Consul HTTP API 
 
 - [My contributions: 30+ PRs](https://github.com/G-Research/consuldotnet/pulls?q=is%3Apr+author%3AMohamedM216+is%3Aclosed)
 
-### [MariaDB](https://github.com/MariaDB/server)
-MariaDB is an open-source, high-performance relational database designed as a drop-in replacement for MySQL.
+### [ParquetSharp](https://github.com/G-Research/ParquetSharp)
+ParquetSharp is a .NET library for reading and writing Apache Parquet files.
 
-- MDEV-36269: Improve error handling for `source` command [#4455](https://github.com/MariaDB/server/pull/4455)
-- MDEV-31669: use XXH3 as a digest instead of md5 [#4573](https://github.com/MariaDB/server/pull/4573)
-- MDEV-21543: Speed up VARCHAR pad space handling in multibyte collations [#4625](https://github.com/MariaDB/server/pull/4625)
-- MDEV-39520: Add MySQL 8.0 extended syntax for REGEXP_INSTR [#5035](https://github.com/MariaDB/server/pull/5035)  [In progress]
+- Fix overflow in DecimalConverter.MaxPrecision for large type lengths > 128 bytes [#652](https://github.com/G-Research/ParquetSharp/pull/652)
 
 
 ### [Valhalla](https://github.com/valhalla/valhalla)
