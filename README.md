@@ -16,8 +16,9 @@ High-performance connection pool for PostgreSQL
 - [#882] feat: add search bar in console [#966](https://github.com/pgagroal/pgagroal/pull/966)
 - [#881] Add option to auto-refresh console after x duration [#972](https://github.com/pgagroal/pgagroal/pull/972)
 - [#950] Make server_reset_query failure behavior tunable (discard, try, ignore) [#970](https://github.com/pgagroal/pgagroal/pull/970)
-- [#973] Fix reading split PostgreSQL message headers [#1037](https://github.com/pgagroal/pgagroal/pull/1037) [in progress]
+- [#973] Fix reading split PostgreSQL message headers [#1037](https://github.com/pgagroal/pgagroal/pull/1037)
 - [#1006] add support for wait queue [#1059](https://github.com/pgagroal/pgagroal/pull/1059) [in progress]
+- [#1099] ci: add PyPI fallback for clang-format 21 in format-check [#1098](https://github.com/pgagroal/pgagroal/pull/1098) [in progress]
 
 
 ### [Consul.NET](https://github.com/G-Research/consuldotnet)
