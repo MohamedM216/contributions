@@ -6,9 +6,9 @@ MariaDB is an open-source, high-performance relational database designed as a dr
 - MDEV-31669: use XXH3 as a digest instead of md5 [#4573](https://github.com/MariaDB/server/pull/4573)
 - MDEV-21543: Speed up VARCHAR pad space handling in multibyte collations [#4625](https://github.com/MariaDB/server/pull/4625)
 - MDEV-21543: use bitwise & to fix build error on amd64-msan-clang-20-debug [#4707](https://github.com/MariaDB/server/pull/4707)
-- MDEV-39520: Add MySQL 8.0 extended syntax for REGEXP_INSTR [#5035](https://github.com/MariaDB/server/pull/5035)  [In progress]
-- MDEV-40524: Fix ST_Distance for multi-segment geometries [#5892](https://github.com/MariaDB/server/pull/5892) [in progress]
-- MDEV-17324: Add INFORMATION_SCHEMA.ARIA_TABLES_ENCRYPTION [#5923](https://github.com/MariaDB/server/pull/5923) [in progress]
+- MDEV-39520: Add MySQL 8.0 extended syntax for REGEXP_INSTR [#5035](https://github.com/MariaDB/server/pull/5035)  [In review]
+- MDEV-40524: Fix ST_Distance for multi-segment geometries [#5892](https://github.com/MariaDB/server/pull/5892) [in review]
+- MDEV-17324: Add INFORMATION_SCHEMA.ARIA_TABLES_ENCRYPTION [#5923](https://github.com/MariaDB/server/pull/5923) [in review]
 
 ### [Pgagroal](https://github.com/pgagroal/pgagroal)
 High-performance connection pool for PostgreSQL
@@ -18,7 +18,10 @@ High-performance connection pool for PostgreSQL
 - [#950] Make server_reset_query failure behavior tunable (discard, try, ignore) [#970](https://github.com/pgagroal/pgagroal/pull/970)
 - [#973] Fix reading split PostgreSQL message headers [#1037](https://github.com/pgagroal/pgagroal/pull/1037)
 - [#1006] add support for wait queue [#1059](https://github.com/pgagroal/pgagroal/pull/1059) [in progress]
-- [#1099] ci: add PyPI fallback for clang-format 21 in format-check [#1098](https://github.com/pgagroal/pgagroal/pull/1098) [in progress]
+- [#1099] ci: add PyPI fallback for clang-format 21 in format-check [#1098](https://github.com/pgagroal/pgagroal/pull/1098) [in review]
+- [#324] add support for NetBSD [#1107](https://github.com/pgagroal/pgagroal/pull/1107)  [in review]
+- [#1108] CI: Restrict Linux job to the pgdg17 repository [#1109](https://github.com/pgagroal/pgagroal/pull/1109)  [in review]
+- [#344] Add transaction pooling setup without limits [#1110](https://github.com/pgagroal/pgagroal/pull/1110)  [in review]
 
 
 ### [Consul.NET](https://github.com/G-Research/consuldotnet)
@@ -44,6 +47,6 @@ Valhalla is an open-source routing engine for turn-by-turn navigation and multim
 - feat: use rapidjson for isochrone serializer [#5429](https://github.com/valhalla/valhalla/pull/5429)
 - feat: use rapidjson for transit_available serializer [#5430](https://github.com/valhalla/valhalla/pull/5430)
 - Add log rolling support for the file logger [#5477](https://github.com/valhalla/valhalla/pull/5477)
-- feat: add attribute controller support for matrix responses [#5471](https://github.com/valhalla/valhalla/pull/5471) [In progress]
-- feat: use rapidjson for osrm_route serializer [#5462](https://github.com/valhalla/valhalla/pull/5462) [In progress]
-- feat(ci): automate CHANGELOG.md conflict resolution via GitHub Actions [#5423](https://github.com/valhalla/valhalla/pull/5423) [In progress]
+- feat: add attribute controller support for matrix responses [#5471](https://github.com/valhalla/valhalla/pull/5471) [In review]
+- feat: use rapidjson for osrm_route serializer [#5462](https://github.com/valhalla/valhalla/pull/5462) [In review]
+- feat(ci): automate CHANGELOG.md conflict resolution via GitHub Actions [#5423](https://github.com/valhalla/valhalla/pull/5423) [In review]
